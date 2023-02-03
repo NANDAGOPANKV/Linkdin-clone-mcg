@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linkdin</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUMZMX///8AYcQAWcFDf8nL3PIAWrzQ3vMAYcI0eclZjtAucslAgsz6/v3x9/sgbclOhM8AX8QAYsAAX70AV70AWMLm7vgAXb4sdsw5fsoRbsVmltK6z+iUt+AMZcGDrN3c6fNvnddiltWqwuPA0+r0+vyOrt+lweR9pduuyueUst9Lh81pldd1mtYdbcunxOXO4u7Z4fGRyVlRAAAEKUlEQVR4nO3ce1faMBzG8SblEpSCiUUuQrkMhsCc+v7f3Ko4KjW/yLY0WXOez9mf4Ml3vSW1NYoAAAAAAAAAAAAAAAAAAAAAAAAAAADgYiriIsqU72FURcapGnXHk5aMue+xVCCT6n56x960Z2OpMt8jsozz+Xve0Xqc+h6SXbKzYOeSfex7UBap+J591lThHI3awPxw5KGcVFUj0RayaRrI6UaUj8GTpfA9NivknApkvTC2YdwjC9lc+h6dBWpFB7JFCIXx1FDIRr6HZ0Fq2EkZewjgXNMnLhVH34a+x/fPeMdYOK3/gchvTIFsXf/ZKR+bC+u/DcW1cS/d1f84jFobU+H3ANYXadNU2PU9PAvkd0Ngz/forMgMhU/1P5Xm4h0ZmHQCOAzz68WEPNdsg9iE+ZH4QATeBTApPYqf9PvoKIh99E2qOxQ3jVvf47JHDT5fMl5GAQW+3tNvnF/4N3shwrhJc8Ljw/Q0Q13MJ4GcRc8IORjP99vZfpWlQe2gH3EZx7Gs/4IJAADqQ3DJX/+FM38vqHyKlA5Hhx+Pj49X43468P34CheEiz9Z+pTMlrvFaQ6YbNrblRpKf6vNbHRNKX2yT/kwSVd5XluzGGs//Ew9NfIGS/RYs3X2yUGzp7dpnMYu+zPql1mbp46f+XxeSCkVxrpt8+bmWJgJOTPeYP7m5QkWi4Wye0d94t3m3sNmtFao5OyLvle7zPnRaKlQCb6+IDBfXvddJ1oq5BH5WE7JXd/xwWilUKnJpYGM9a7dPk5mpfCWP18cmO+okdOtaKVwYHxm5ZP1wOWNPBuFneUfBTK2dHkzyEbhwfirco3NxOF+aqPw8rPMbzuHV34bhX+h4e6q6KnQ4ZM6ngrZyNlG9FXo7hfMvgp7zt7o8FXIDq52U2+FznbTKgovmgAsalq4mB0mQqjJYfvler98o6sWhevuYPh2C5jz4WD1ReMPR4soi4W91dmtXy7MK469o7mpvcLn8nRaSWPi9PzH/++FCXvW3LuXpoXxi6MllK1tqHtGLBMd0zccLYNtFR60W8T0wkqv7yTQVuGTfpfLuvRXkms3sxo7hQlx/yy7NayOO3Uq3MXExY148PFY6OZyYafwihqsXNJfGteoMCGXQoYfzxo1KmxSO2kkJvTLcXUq3BreraFnp3UqNLwT3aJPpnUqPNBjTV+CKDScFVv0t+pUaLiytegXq1BoCQoLKNRDYfVQWEChHgqrh8ICCvVQWD0UFlCoh8LqobCAQj0UVg+FBRTqobB6KCygUA+F1UNhAYV6KKweCgso1ENh9VBYQKEeCquHwkKAhe1SIf2UoaFwSP+/dB29FtTvUsbnH+Q3VxTDmxOq+zffskqJiOtFpZda+OV/M6uQKepLof0NWAAAAAAAAAAAAAAAAAAAAAAAAAAAgAr8Aj5RWY0PDbn2AAAAAElFTkSuQmCC"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logosearch">
+        <a href="#">
+          <img
+            class="logo"
+            src="https://imgs.search.brave.com/6HvOxS-0B486SjaapEadEN6Lk_-8ml_9aLzBeUHCXKk/rs:fit:740:417:1/g:ce/aHR0cHM6Ly9zbS5w/Y21hZy5jb20vdC9w/Y21hZ19hdS9yZXZp/ZXcvbC9saW5rZWRp/bi9saW5rZWRpbl9y/OXhtLjEyMDAuanBn"
+            alt="Linkdin-logo"
+          />
+        </a>
+        <input class="search" type="text" placeholder="Search" />
+      </div>
+      <div class="icons">
+        <a href="#">
+          <i class="fa-solid fa-house"></i>
+          <h6>home</h6>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-user-group"></i>
+          <h6>My Network</h6>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-user-group"></i>
+          <h6>Messaging</h6>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-bell"></i>
+          <h6>Notification</h6>
+        </a>
+        <a href="#">
+          <img
+            class="profile2"
+            style="width: 30px; height: 30px"
+            src="https://media.licdn.com/dms/image/D5603AQHJKIFQRMIXZw/profile-displayphoto-shrink_400_400/0/1673544875971?e=1680739200&v=beta&t=QHaj9kxHexOtwJEawbCm1y-s1M9fqmeYWSj9arOgqu0"
+            alt="image"
+          />
+          <h6>Me</h6>
+        </a>
+        <!-- line -->
+        <div class="line"></div>
+        <a href="#">
+          <h1>:::</h1>
+          <h6>Work</h6>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <h6>Post a job for free</h6>
+        </a>
+      </div>
+    </header>
+    <!-- Section -->
+    <section>
+      <div class="container">
+        <aside>
+          <img
+            class="bgimg"
+            src="https://media.licdn.com/dms/image/C5616AQFzC6n0v84Dyw/profile-displaybackgroundimage-shrink_350_1400/0/1648126999815?e=1680739200&v=beta&t=a6U23udAJ4_vSVILPyKJaMSRspnfj3GQW4muGsYmfSk"
+            alt="bgimg"
+          />
+          <!-- prfile and about -->
+          <div class="about">
+            <img
+              src="https://media.licdn.com/dms/image/D5603AQHJKIFQRMIXZw/profile-displayphoto-shrink_400_400/0/1673544875971?e=1680739200&v=beta&t=QHaj9kxHexOtwJEawbCm1y-s1M9fqmeYWSj9arOgqu0"
+              alt="profiel"
+              class="profile"
+            />
+            <h2>NANDAGOPAN K V</h2>
+            <h4>MERN Stack Intern at Brototype</h4>
+          </div>
+          <!-- below prfile and about -->
+          <div class="noti">
+            <hr />
+            <div class="one">
+              <div class="insights">
+                <h4>Who's viewed your profile</h4>
+                <h5>109</h5>
+              </div>
+              <div class="insights">
+                <h4>Impression of your post</h4>
+                <h5>3,188</h5>
+              </div>
+            </div>
+            <hr />
+            <div class="two">
+              <p>Access exclusive tools & insights</p>
+              <p><a href="#">Get Hired Faster,Try Premiume Free</a></p>
+            </div>
+            <hr />
+            <div class="three">
+              <i class="fa-regular fa-bookmark"></i>
+              <h4>my items</h4>
+            </div>
+          </div>
+        </aside>
+        <div class="main">
+          <!-- Header-Div -->
+          <div class="headerDiv">
+            <!-- Input and profile div -->
+            <div class="inputandprofile">
+              <img
+                src="https://media.licdn.com/dms/image/D5603AQHJKIFQRMIXZw/profile-displayphoto-shrink_400_400/0/1673544875971?e=1680739200&v=beta&t=QHaj9kxHexOtwJEawbCm1y-s1M9fqmeYWSj9arOgqu0"
+                alt="profile"
+                class="profile2"
+              />
+              <input type="text" placeholder="Start a post" />
+            </div>
+            <!-- Input and profile div -->
+            <!-- Icons Div -->
+            <div class="iconsDiv">
+              <a href="#">
+                <i class="fa-regular fa-image"></i>
+                <h4>Photo</h4>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+                <h4>Video</h4>
+              </a>
+              <a href="#">
+                <i class="fa-solid fa-briefcase"></i>
+                <h4>Job</h4>
+              </a>
+              <a href="#">
+                <i class="fa-solid fa-newspaper"></i>
+                <h4>Write Article</h4>
+              </a>
+            </div>
+            <!-- Icons Div -->
+          </div>
+          <!-- Header-Div -->
+
+          <!-- Media Are Scrool -->
+          <div class="mediaDiv">
+            <!-- head section of media -->
+            <div class="mediaHead">
+              <img
+                style="margin-top: 13px"
+                src="https://upload.wikimedia.org/wikipedia/de/thumb/5/5c/Chelsea_crest.svg/1200px-Chelsea_crest.svg.png"
+                alt="profie"
+                class="profile2"
+              />
+              <div>
+                <h3>Chelsea FC</h3>
+                <p>
+                  I help people land their dream job | Co-Founder & CEO @
+                  HiCounselor.com | Ex-Deloitte, PwC
+                </p>
+                <p>2h • <i class="fa-sharp fa-solid fa-globe"></i></p>
+              </div>
+              <p class="plus">+</p>
+              <button>Follow</button>
+            </div>
+            <!-- head section of media -->
+            <!-- Description section of media -->
+            <div class="descriptionDiv">
+              <p>
+                Candidates pay $159 for Leetcode 😰<br />
+                $99 for Algoexpert<br />
+                $199 for Coderbyte
+              </p>
+            </div>
+            <!-- Description section of media -->
+            <!-- Image section of media -->
+            <div class="image">
+              <img
+                src="https://cdn1.thechelseachronicle.com/uploads/17/2023/02/GettyImages-1246723317.jpg"
+                alt="Chelsea"
+              />
+            </div>
+            <!-- Image section of media -->
+            <!-- Impression section of media -->
+            <div class="impression">
+              <i class="fa-sharp fa-solid fa-thumbs-up"></i>
+              <i class="fa-solid fa-comment-dots"></i>
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+            <!-- Impression section of media -->
+          </div>
+          <!-- Media Are Scrool -->
+
+          <!-- Media Are Scrool -->
+          <div class="mediaDiv">
+            <!-- head section of media -->
+            <div class="mediaHead">
+              <img
+                style="margin-top: 13px"
+                src="https://upload.wikimedia.org/wikipedia/de/thumb/5/5c/Chelsea_crest.svg/1200px-Chelsea_crest.svg.png"
+                alt="profie"
+                class="profile2"
+              />
+              <div>
+                <h3>Chelsea FC</h3>
+                <p>
+                  I help people land their dream job | Co-Founder & CEO @
+                  HiCounselor.com | Ex-Deloitte, PwC
+                </p>
+                <p>2h • <i class="fa-sharp fa-solid fa-globe"></i></p>
+              </div>
+              <p class="plus">+</p>
+              <button>Follow</button>
+            </div>
+            <!-- head section of media -->
+            <!-- Description section of media -->
+            <div class="descriptionDiv">
+              <p>
+                Candidates pay $159 for Leetcode 😰<br />
+                $99 for Algoexpert<br />
+                $199 for Coderbyte
+              </p>
+            </div>
+            <!-- Description section of media -->
+            <!-- Image section of media -->
+            <div class="image">
+              <img
+                src="https://cdn1.thechelseachronicle.com/uploads/17/2023/02/GettyImages-1246723317.jpg"
+                alt="Chelsea"
+              />
+            </div>
+            <!-- Image section of media -->
+            <!-- Impression section of media -->
+            <div class="impression">
+              <i class="fa-sharp fa-solid fa-thumbs-up"></i>
+              <i class="fa-solid fa-comment-dots"></i>
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+            <!-- Impression section of media -->
+          </div>
+          <!-- Media Are Scrool -->
+
+          <!-- Media Are Scrool -->
+          <div class="mediaDiv">
+            <!-- head section of media -->
+            <div class="mediaHead">
+              <img
+                style="margin-top: 13px"
+                src="https://upload.wikimedia.org/wikipedia/de/thumb/5/5c/Chelsea_crest.svg/1200px-Chelsea_crest.svg.png"
+                alt="profie"
+                class="profile2"
+              />
+              <div>
+                <h3>Chelsea FC</h3>
+                <p>
+                  I help people land their dream job | Co-Founder & CEO @
+                  HiCounselor.com | Ex-Deloitte, PwC
+                </p>
+                <p>2h • <i class="fa-sharp fa-solid fa-globe"></i></p>
+              </div>
+              <p class="plus">+</p>
+              <button>Follow</button>
+            </div>
+            <!-- head section of media -->
+            <!-- Description section of media -->
+            <div class="descriptionDiv">
+              <p>
+                Candidates pay $159 for Leetcode 😰<br />
+                $99 for Algoexpert<br />
+                $199 for Coderbyte
+              </p>
+            </div>
+            <!-- Description section of media -->
+            <!-- Image section of media -->
+            <div class="image">
+              <img
+                src="https://cdn1.thechelseachronicle.com/uploads/17/2023/02/GettyImages-1246723317.jpg"
+                alt="Chelsea"
+              />
+            </div>
+            <!-- Image section of media -->
+            <!-- Impression section of media -->
+            <div class="impression">
+              <i class="fa-sharp fa-solid fa-thumbs-up"></i>
+              <i class="fa-solid fa-comment-dots"></i>
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+            <!-- Impression section of media -->
+          </div>
+          <!-- Media Are Scrool -->
+        </div>
+        <!-- Left Section -->
+        <div class="leftside">
+          <div class="heading">
+            <h4>Linkdin News</h4>
+            <i class="fa-regular fa-newspaper"></i>
+          </div>
+          <div class="news">
+            <ul>
+              <li>
+                Making students future-ready
+                <h6>Top news 3,008 reade</h6>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Making students future-ready
+                <h6>Top news 3,008 reade</h6>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Making students future-ready
+                <h6>Top news 3,008 reade</h6>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Making students future-ready
+                <h6>Top news 3,008 reade</h6>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Making students future-ready
+                <h6>Top news 3,008 reade</h6>
+              </li>
+            </ul>
+            <button>Show more <i class="fa-solid fa-chevron-down"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

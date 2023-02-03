@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logosearch {
+    padding-left: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    width: 30vw;
+    height: 100%;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 67px;
+    height: 35px;
+}
+
+.search {
+    height: 2rem;
+    width: 17rem;
+    padding-left: 16px;
+    font-size: large;
+    border-radius: 7px;
+    background-color: rgb(222, 230, 225);
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    border-left: solid 2px gray;
+    height: 100%;
+}
+
+/* Section */
+section {
+    width: 100%;
+    height: 270vh;
+    background-color: #ededed;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 76%;
+    height: 98.5%;
+    padding-top: 20px;
+    display: flex;
+
+}
+
+/* Left Section */
+aside {
+    width: 100%;
+    height: 40vh;
+    flex: 1.5;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bgimg {
+    width: 100%;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.profile {
+    width: 50px;
+    object-fit: contain;
+    border-radius: 50px;
+    position: absolute;
+    display: flex;
+    top: 100px;
+
+}
+
+.about {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.about h4 {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.noti {
+    width: 100%;
+    height: 70%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* one */
+.one {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.insights {
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.insights h4 {
+    color: gray;
+    font-size: 9px;
+}
+
+.insights h5 {
+    margin-left: 85px;
+    color: blue;
+}
+
+
+/* Two */
+.two {
+    margin-top: 10px;
+    font-size: small;
+}
+
+.three {
+    margin-top: 20px;
+    display: flex;
+}
+
+.three h4 {
+    margin-left: 10px;
+}
+
+/* Main */
+.main {
+    flex: 4;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.head {
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+
+.headerDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.inputandprofile {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.profile2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    top: 100px;
+    margin-left: 10px;
+}
+
+.inputandprofile input {
+    width: 80%;
+    height: 10vh;
+}
+
+.inputandprofile input {
+    flex: 7;
+    margin-right: 10px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.iconsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.iconsDiv a {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+/* Left Side */
+.leftside {
+    padding: 10px;
+    flex: 2;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 50vh;
+}
+
+.heading {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news {
+    width: 100%;
+    height: 70%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news ul li {
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.news ul li h6 {
+    letter-spacing: 1px;
+}
+
+.news button {
+    width: 100px;
+    background-color: white;
+    color: gray;
+    border: none;
+}
+
+.mediaDiv {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 82vh;
+    background-color: #fff;
+}
+
+.mediaHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.mediaHead div {
+    margin-top: 16px;
+}
+
+.mediaHead div p {
+    font-size: 12px;
+}
+
+.mediaHead button {
+    margin-right: 9px;
+}
+
+
+.mediaHead button,
+.plus {
+    border: none;
+    margin-top: 14px;
+    background-color: #fff;
+    color: blue;
+    font-size: large;
+}
+
+.descriptionDiv {
+    padding: 20px;
+}
+
+.image {
+    width: 100%;
+    height: 50vh;
+    background-color: green;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.impression {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
